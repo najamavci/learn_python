@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08c880a-191e-4e97-96d9-7a9145cfaf96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Learn_Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e08c880a-191e-4e97-96d9-7a9145cfaf96" name="Changes" comment="Second initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_01/money_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_01/money_calculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_01/pricing_with_percentage.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_01/pricing_with_percentage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_02/time_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_02/time_calculation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "najamavci"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:najamavci/learn_python.git",
+    "accountId": "d9e4485d-0422-4d63-8a45-845e7dcd6097"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -38,9 +52,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.date_calculation.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.money_calculation.executor": "Run",
+    "Python.pricing_with_percentage.executor": "Run",
+    "Python.ticket_calculation.executor": "Run",
+    "Python.time_calculation.executor": "Run",
+    "Python.user_input.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
@@ -52,6 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,8 +93,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768517791206</updated>
-      <workItem from="1768517792258" duration="410000" />
+      <workItem from="1768517792258" duration="11559000" />
     </task>
+    <task id="LOCAL-00001" summary="Second initial commit">
+      <option name="closed" value="true" />
+      <created>1768572353703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572353703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +119,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Learn_Python$ticket_calculation.coverage" NAME="ticket_calculation Coverage Results" MODIFIED="1768519053153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/Learn_Python$time_calculation.coverage" NAME="time_calculation Coverage Results" MODIFIED="1768585881826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/Learn_Python$date_calculation.coverage" NAME="date_calculation Coverage Results" MODIFIED="1768587083500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/Learn_Python$user_input.coverage" NAME="user_input Coverage Results" MODIFIED="1768573285437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/Learn_Python$pricing_with_percentage.coverage" NAME="pricing_with_percentage Coverage Results" MODIFIED="1768573196614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/Learn_Python$main.coverage" NAME="main Coverage Results" MODIFIED="1768518068849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learn_Python$money_calculation.coverage" NAME="money_calculation Coverage Results" MODIFIED="1768572911849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
   </component>
 </project>

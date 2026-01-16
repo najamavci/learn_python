@@ -13,5 +13,5 @@ print("Varje person får " + z)
 ticket_price = 100
 pocket_money = 200
 print("There will be " + str(pocket_money - ticket_price) +  " kron left.")
-money_left= pocket_money - ticket_price /2
-print("Each person gets " + str(money_left))
+money_left= (pocket_money - ticket_price)/2
+print("Each person gets ", int(money_left))

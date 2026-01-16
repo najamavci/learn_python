@@ -14,7 +14,8 @@ print("The final price of the jacket is", int(final_price))
 
 sale_percentage= int(input("Please, enter the sale percentage "))
 actual_price= 3500
+print("The actual price of the jacket is", int(actual_price))
 discount_amount = actual_price * sale_percentage / 100
 print("The discount amount is", int(discount_amount))
 item_final_price = actual_price - discount_amount
-print("The item costs", int(final_price), "Swedish kron")
+print("The item costs", int(item_final_price), "Swedish kron")

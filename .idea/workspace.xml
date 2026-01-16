@@ -82,6 +82,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="3" Folder0="$PROJECT_DIR$/homework_01" Folder1="$PROJECT_DIR$/homework_01" Folder2="$PROJECT_DIR$/homework_01" CustomDictionaries="3" CustomDictionary0="$PROJECT_DIR$/homework_01/date_calculation.py" CustomDictionary1="$PROJECT_DIR$/homework_01/hypotenuse_lenght_calculation.py" CustomDictionary2="$PROJECT_DIR$/homework_01/trip_duration.py" DefaultDictionary="project-level" UseSingleDictionary="false" transferred="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e08c880a-191e-4e97-96d9-7a9145cfaf96" name="Changes" comment="" />
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768517791206</updated>
-      <workItem from="1768517792258" duration="11953000" />
+      <workItem from="1768517792258" duration="12380000" />
     </task>
     <task id="LOCAL-00001" summary="Second initial commit">
       <option name="closed" value="true" />

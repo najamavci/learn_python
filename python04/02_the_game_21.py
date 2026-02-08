@@ -1,0 +1,24 @@
+'''
+3 Spelet 21
+Om man lägger ihop talen 1 + 2 + 3 + 4 + …  så kommer talens summa att bli större och större. Förr eller senare kommer man förbi 21. Skriv en funktion som skriver ut det första talet i talserien som är större än 21.
+
+Version 2: i stället för att använda talserien, slumpa tal mellan 1 och 13. (talen i en vanlig kortlek)
+Tips: importera modulen random och använd funktionen randint för att slumpa tal.
+Exempel: card = random.randint(1, 13)
+
+Möjlig vidareutveckling: bygg ett spel som frågar användaren om man vill ta ett nytt kort eller stanna. (slumpa ett tal) Gör så att datorn kan simulera en motståndare. Målet är att vinna över datorn.
+'''
+
+import random
+
+def first_random_over_21():
+    total = 0  # sum of drawn cards
+    card = 0   # the last card drawn
+
+    while total <= 21:
+        card = random.randint(1, 13)  # pick a random number between 1 and 13
+        total += card  # add it to the total
+    print("The first random number that makes total bigger than 21 is:", card)
+
+# Test it
+first_random_over_21()
